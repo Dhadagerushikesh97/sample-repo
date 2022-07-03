@@ -1,0 +1,22 @@
+body{
+    background-color: green;
+}
+
+/* 
+small - 0-767 px
+tablet - 768 px
+laptop - 1020 px
+PC - 1400 px
+*/
+
+@media (min-width:768px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width:1020px){
+    body{
+        background-color: Red;
+    }
+}

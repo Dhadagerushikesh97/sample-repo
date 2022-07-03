@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    padding: 200px; /*at centre*/
+}
+
+.parent{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex; /*arrange boxes next to each other*/
+    gap: 5px; 
+    /*flex-wrap: wrap; arrange boxes from second line if line ends*/   
+    align-items  : center; /*baseline*/ /*align indivisually*/
+    justify-content: center; /*boxes at left*/  /*align in a group*/
+    /* for right side - flex-start
+       for left side - flex-end
+       for centre - center
+       for one at right and second at right - space-between 
+    */
+    /*flex-direction: column; arrange boxes in column*/
+
+}
+
+.child{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;  
+}
+
+.child1{
+    background-color: red;
+    width: 200px;
+    height: 250px;  
+}
+
+/* External css -> Having External css file (best to Use)
+   Internal css -> Using style HTML tag
+   Inline css -> Using style attribute
